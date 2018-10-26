@@ -4,7 +4,7 @@ This is some info to keep on the radar for future react/redux projects. It's not
 
 This demo repo is a monorepo -- though its scope is for an app... usually the monorepo scope would be much broader. But there are companies using monorepos just for single apps.
 
-To demonstrate some of the points, I created a demo app. View demo here:
+To demonstrate some of the points, I created a demo app. It's quick & dirty, not meant to be a startingpoint or boilerplate. Just a way to demonstrate some examples.
 
 https://build-wcplkdlvmf.now.sh/
 
