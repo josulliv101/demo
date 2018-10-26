@@ -31,7 +31,7 @@ class App extends Component {
 }
 
 const mapStateToProps = state => ({
-  // TODO Loop of state looking for 'loading' properties
+  // TODO Loop of state looking for 'loading' properties.
   isLoading:
     state.users.userList.loading === true ||
     state.posts.postList.loading === true

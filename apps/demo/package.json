@@ -35,6 +35,7 @@
     "recompose": "^0.30.0"
   },
   "devDependencies": {
+    "@demo/dev-tools": "^1.0.0",
     "idx.macro": "^3.0.2"
   }
 }

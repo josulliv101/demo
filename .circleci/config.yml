@@ -33,7 +33,6 @@ jobs:
             - attach_workspace:
                 at: ~/tmp/circlci-now
             - run: yarn --verbose
-            - run: yarn test
     deploy:
         <<: *defaults
         steps:
