@@ -8,6 +8,5 @@ node_modules
 *.bundle.js
 *coverage
 *dist
-*\/es
 *lib
 *demo/build

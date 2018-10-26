@@ -15,7 +15,7 @@
     "dev": "lerna run build:watch --parallel",
     "start": "lerna run start --stream --scope=@demo/app",
     "build": "lerna run build --stream --scope=@demo/app",
-    "build:packages": "lerna run build:lib --no-sort --parallel",
+    "build:packages": "lerna run build:watch --no-sort --parallel",
     "prettify": "prettier --write '**/*.{js,json}'",
     "test": "lerna run test --parallel",
     "test:coverage": "lerna run test:coverage --parallel",
