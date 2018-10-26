@@ -11,8 +11,7 @@
   "scripts": {
     "build:watch": "dev-tools build:watch",
     "prepublishOnly": "npm run build",
-    "start": "dev-tools start",
-    "test": "react-scripts test --setupFiles ../../setupTests.js"
+    "start": "dev-tools start"
   },
   "peerDependencies": {
     "react": "16.x"
