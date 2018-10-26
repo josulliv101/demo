@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@demo/dev-tools": "^1.0.0",
+    "babel-preset-react-app": "^5.0.4",
     "idx.macro": "^3.0.2"
   }
 }
