@@ -46,7 +46,7 @@ jobs:
                 command: ls ./node_modules/.bin
             - run:
                 name: Build Static Site
-                command: yarn ls ./node_modules/.bin
+                command: ls ./node_modules/.bin
             - run:
                 name: List
                 command: ls node_modules/@demo
