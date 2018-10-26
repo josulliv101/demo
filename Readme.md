@@ -1,6 +1,6 @@
 # Future Projects
 
-This is some info to keep on the radar for future react/reduc projects. It's not recommendations... just things to be aware of and further investigated if it seems like a good fit. 
+This is some info to keep on the radar for future react/redux projects. It's not recommendations... just things to be aware of and further investigated if it seems like a good fit. 
 
 This demo repo is a monorepo -- though its scope is for an app... usually the monorepo scope would be much broader. But there are companies using monorepos just for single apps.
 
