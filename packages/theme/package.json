@@ -1,0 +1,25 @@
+{
+  "name": "@demo/theme",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "build:watch": "dev-tools build:watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@demo/dev-tools": "^1.0.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.3.1",
+    "prop-types": "^15.6.2"
+  }
+}

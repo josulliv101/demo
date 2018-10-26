@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates snapshot 1`] = `
+<BrowserRouter>
+  <div
+    className="App"
+  >
+    <WithStyles(Header) />
+    <main
+      className="App-header"
+    >
+      foobar
+    </main>
+    <withState(withHandlers(WithStyles(Footer))) />
+  </div>
+</BrowserRouter>
+`;

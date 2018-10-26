@@ -1,0 +1,19 @@
+{
+  "name": "@demo/styleguide",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "styleguidist build"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@demo/dev-tools": "^1.0.0",
+    "@demo/theme": "^1.0.0"
+  },
+  "dependencies": {
+    "@demo/theme": "^1.0.0"
+  }
+}

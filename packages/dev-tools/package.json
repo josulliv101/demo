@@ -1,0 +1,33 @@
+{
+  "name": "@demo/dev-tools",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "scripts": {
+    "styleguide:build": "NODE_ENV=production styleguidist build"
+  },
+  "license": "ISC",
+  "bin": {
+    "dev-tools": "./bin/index.js"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@demo/theme": "^1.0.0",
+    "babel-preset-react-app": "^5.0.4",
+    "chalk": "^2.4.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "enzyme-to-json": "^3.3.4",
+    "react-scripts": "^2.0.5",
+    "react-styleguidist": "^8.0.0",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
