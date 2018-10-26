@@ -1,10 +1,11 @@
 # Future Projects
 
-This is some info to keep on the radar for future react/reduc projects. It's not recommoendations... just things to be aware of and further investigated if it seems like a good fit. 
+This is some info to keep on the radar for future react/reduc projects. It's not recommendations... just things to be aware of and further investigated if it seems like a good fit. 
 
 This demo repo is a monorepo -- though its scope is for an app... usually the monorepo scope would be much broader. But there are companies using monorepos just for single apps.
 
 To demonstrate some of the points, I created a demo app. View demo here:
+
 https://build-wcplkdlvmf.now.sh/
 
 ## Develop Components in Isolation
@@ -32,11 +33,11 @@ https://public-jfpcwngzni.now.sh/
   * Set up to needs (a need may be to run large amount tests efficiently, or another may be really good experience when developing)
   * Scope of monorepo: app vs organization
   * Probably some bumps/bruises in finding right structure for monorepo
-  * <Resource> https://github.com/korfuri/awesome-monorepo
+  * https://github.com/korfuri/awesome-monorepo
   * Unfortunately monorepo support was yanked from create-react-app v2 at the last minute. This demo uses a create-react-app so I had to do some extra stuff to get it to work.
   
  ## Recompose/HOCs
- good way to promote code reuse/extract logic out of compoents (see demo... there's no if/else/switch statements in it -- except in dev-tools)
+ good way to promote code reuse/extract logic out of components (there's no if/else/switch statements in demo -- except in dev-tools. lot easier to test)
  see https://github.com/acdlite/recompose
  
  ## Reduce repetitive boilerplate code associated with redux-saga
