@@ -4,7 +4,7 @@ module.exports = {
   title: "Demo App",
   components: () => ["./packages/ui-[a-zA-Z]*/src/components/**/[a-zA-Z]*.js"],
   styleguideComponents: {
-    // Need to wrap components with MUI theme
+    // Need to wrap components with MUI theme.
     Wrapper: path.join(__dirname, "apps", "styleguide", "Wrapper")
   },
   styleguideDir: "./apps/styleguide/public",
