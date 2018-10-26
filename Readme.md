@@ -16,6 +16,11 @@ https://build-wcplkdlvmf.now.sh/
     * provides an inventory of components
     * may be useful as tool when interacting with business
     * Example Tools: Storybook, Styleguidist, Catalog
+    * some example styleguides below:
+    
+    
+    
+    
        * https://everydayhero.github.io/constructicon/ (styleguidist)
        * https://dialogs.github.io/dialog-web-components/ (styleguidist)
        * https://building.coursera.org/coursera-ui/ (storybook)
@@ -43,5 +48,4 @@ https://public-jfpcwngzni.now.sh/
  
  ## Reduce repetitive boilerplate code associated with redux-saga
  There's plenty of packages that help deal with this. In demo I tried using redux-toolbelt (never used it before, wanted to try). Or potentially could create own utils for it. See demo for saga/reducer code reduction -- this is just a simple, contrived example
- 
  
